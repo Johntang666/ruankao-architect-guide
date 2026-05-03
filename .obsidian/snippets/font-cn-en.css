@@ -1,0 +1,13 @@
+/* Obsidian 笔记正文：英文 Times New Roman，中文宋体 */
+body {
+  --font-text: "Times New Roman", "SimSun", "宋体", serif;
+}
+
+/* 编辑模式 + 阅读模式都生效 */
+.markdown-source-view.mod-cm6,
+.markdown-source-view.mod-cm6 .cm-scroller,
+.markdown-source-view.mod-cm6 .cm-content,
+.markdown-preview-view,
+.markdown-rendered {
+  font-family: "Times New Roman", "SimSun", "宋体", serif !important;
+}
